@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryptor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./imagenes/logoJR.ico">
+</head>
+<body>
+
+    <!--Encabezado-->
+
+    <header class="header">
+        <img class="logo" src="./imagenes/logo2-removebg-preview.png" alt="logo">
+    </header>
+
+    <!--Principal-->
+
+    <main>
+        <section class="encriptador"> 
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="aviso">
+                <img src="./imagenes/aviso.svg" alt="imagen-aviso">
+                <p class="texto-aviso">No debe tener caracteres especiales</p>
+            </div>
+            <div class="encriptador-botones">
+                <button class="boton1" type="button" id="encriptar">Encriptar</button>
+                <button class="boton2" type="button" id="desencriptar">Desencriptar</button>
+            </div> 
+</section>
+<section class="targeta">
+    <div class="targeta-contenido">
+        <img class="muñeco" src="./imagenes/muñeco.svg" alt="imagen-muñeco">
+        <p class="texto1">Ningún mensage encontrado</p>
+        <p class="texto2">Ingrese el texto que deseas encriptar o desencriptar.</p>
+    </div>
+    <textarea class="resultado" readonly></textarea> 
+    <button class="copiar" type="button">Copiar</button>
+</section>
+</main>
+<!--pie de página-->
+<footer class="footer">
+    <p class="copyright">&copy; copyright 2024 - Encriptador de texto</p>
+    <img class="linked" src="./imagenes/linkedin.svg" alt="inkedin">
+    <img class="git" src="./imagenes/github.svg" alt="github">
+</footer>
+    <script src="app.js" defer></script>   
+</body>
+</html>
